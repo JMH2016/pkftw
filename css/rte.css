@@ -1,0 +1,25 @@
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+.arrowList  {
+background: url(../styles/images/arrowYellow.gif) no-repeat;     padding-left: 20px;     background-position-y: 4px;
+}
+
+.headerText {
+ color: #003399;  font-size: 1.15rem;  line-height: 23px; margin-bottom:15px !important;font-weight:bold;
+}
+
+.headerSubText {
+font-family: 'open_sansregular', Arial, Helvetica, sans-serif; color: #1a1a1a; line-height: 1.5; font-size:100% 
+}
+
+.italicsShortDescription {
+font-size:100%; color:#1a1a1a; font-family: 'open_sansregular', Arial, Helvetica, sans-serif; font-style: italic;
+}
+
+p {
+ margin: 0;     padding: 0;     border: 0;
+}
+
+.abstract {
+    color: #1a1a1a;      font-size: 15px;      line-height: 1.5;      margin: 0 0 20px 0;    font-family: 'open_sansregular', Arial, Helvetica, sans-serif;font-weight:bold;
+}
+

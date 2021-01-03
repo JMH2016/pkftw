@@ -1,0 +1,17 @@
+﻿html{}
+body{padding:0;margin:0;background-color:white;font-family:Georgia, Times New Roman, Serif;}
+form{padding:0;margin:0;}
+h1{font-size:20pt;padding-bottom:20px;margin-bottom:20px;}
+h2{font-size:18pt;}
+h3{font-size:16pt;}
+h4{font-size:14pt;}
+h5{font-size:12pt;}
+p, ul, ol{font-size:12pt;}
+dl{clear:both;}
+dt{}
+dd{margin:0;padding:0;float:left;}
+img{border:none;}
+table th,table td{border:1px solid #999;}
+.main a:after{content:" (" attr(href) ") ";font-style:italic;}
+.main{clear:both;}
+.findAMemberControl, .minorLinks, .searchControl, .nav, .sidebar, .footerSection, .keepInTouch, .smallComponent, .callToAction{display:none;}
