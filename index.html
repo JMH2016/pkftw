@@ -1,208 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Carved Rock Fitness</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
-      rel="stylesheet"
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link href="css/main.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+
+    <title>PKF Taiwan</title>
   </head>
+
   <body>
-    <!-- NAVIGATION -->
-    <nav class="header-nav">
-      <div class="container flex space-between">
-        <!-- BRANDING -->
-        <div class="flex align-center brand">
-          <a href="#">
-            <img
-              class="logo"
-              alt="Carved Rock Fitness"
-              src="img/carved-rock-logo.png"
-            />
-          </a>
-        </div>
-        <!-- SEARCH -->
-        <div class="flex flex-column flex-one align-center">
-          <div>
-            <form>
-              <input
-                class="search-box"
-                aria-label="Search"
-                placeholder="What can we help you find?"
-                type="search"
-              />
-              <button class="search-button" type="submit">SEARCH</button>
-            </form>
-            <ul class="flex space-between nav-list">
-              <li><a href="#">Clothing</a></li>
-              <li><a href="#">Footwear</a></li>
-              <li><a href="#">Equipment</a></li>
-              <li><a href="#">Bags &amp; Travel</a></li>
-              <li><a href="#">Trail Reviews</a></li>
-            </ul>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img src="images/logo.jpg" alt="PKF Taiwan Logo" />
+            <h1>PKF Taiwan</h1>
+            <h2>Accountants & business advisers</h2>
           </div>
-          <!-- PROFILE -->
-          <div class="flex align-center profile">
-            <div class="flex flex-column account">
-              John Doe <a href="#">Log Out</a>
-            </div>
-            <div class="profile-pic">
-              <img alt="John Doe" src="img/profile-pic.jpg" />
-            </div>
-          </div>
+          <!-- end column -->
         </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Offices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container flex flex-column center align-center">
-        <h1>Get A Grip</h1>
-        <h2>20% Off</h2>
-        <p>Throughout The Season</p>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img src="images/sample-banner.jpg" class="img-fluid" />
+          </div>
+          <!-- end column -->
+        </div>
+        <!-- end row -->
       </div>
-    </section>
+      <!-- end container -->
 
-    <!-- MAIN CONTAINER -->
-    <div class="container">
-      <!-- SALE BANNER -->
-      <section>
-        <div class="flex align-center center banner">
-          <img alt="Brown Boots" src="img/brown-boots.jpg" />
-          <div class="banner-text">
-            <div class="text-light">Couples retreat weekend</div>
-            <div class="text-secondary">Save an extra 20%</div>
-            <div class="text-primary">when you buy 2 pairs of boots</div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h1>This Weeks Specials</h1>
           </div>
-          <img alt="Grey Boots" src="img/grey-boots.jpg" />
+          <!-- end column -->
         </div>
-      </section>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
 
-      <!-- CATEGORIES -->
-      <section>
-        <div class="category">
-          <a href="#">
-            <img alt="Splash Chic" src="img/category-1.jpg" />
-            <div class="category-text">
-              <h3>Splash Chic</h3>
-              <div>Women's Wet Gear</div>
-            </div>
-          </a>
-        </div>
-        <div class="category">
-          <a href="#">
-            <img alt="Kid Klimbers" src="img/category-2.jpg" />
-            <div class="category-text">
-              <h3>Kid Klimbers</h3>
-              <div>Children's Gear</div>
-            </div>
-          </a>
-        </div>
-        <div class="category">
-          <a href="#">
-            <img alt="Pack It In" src="img/category-3.jpg" />
-            <div class="category-text">
-              <h3>Pack It In</h3>
-              <div>Camping Gear</div>
-            </div>
-          </a>
-        </div>
-        <div class="category">
-          <a href="#">
-            <img alt="Nature's AC" src="img/category-4.jpg" />
-            <div class="category-text">
-              <h3>Nature's AC</h3>
-              <div>Men's Shorts</div>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <!-- FULL BANNER -->
-      <section class="full-banner">
-        <div class="full-banner-image"></div>
-        <div
-          class="flex flex-column flex-one align-center center full-banner-sidebar"
-        >
-          <h4>Trail Review</h4>
-          <div>Asphalt</div>
-          <div>National Park</div>
-          <a href="#" class="btn btn-default">See Review</a>
-        </div>
-      </section>
-    </div>
-
-    <!-- FOOTER -->
-    <footer>
-      <section class="container space-between lists">
-        <div>
-          <div class="text-primary link-header">Customer Support</div>
-          <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Order Tracker</a></li>
-            <li><a href="#">Returns &amp; Refunds</a></li>
-            <li><a href="#">Size Guide</a></li>
-            <li><a href="#">Store Locator</a></li>
-            <li><a href="#">Site Map</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="text-primary link-header">Company Info</div>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Sustainability</a></li>
-            <li><a href="#">Affiliates</a></li>
-            <li><a href="#">Students</a></li>
-            <li><a href="#">Mobile Apps</a></li>
-          </ul>
-        </div>
-        <div>
-          <div class="text-primary link-header">Privacy &amp; Terms</div>
-          <ul>
-            <li><a href="#">Privacy &amp; Security</a></li>
-            <li><a href="#">Statement</a></li>
-            <li><a href="#">Terms &amp; Conditions</a></li>
-          </ul>
-        </div>
-        <div class="social">
-          <div class="text-primary link-header">Follow Us</div>
-          <ul>
-            <li><a href="#" class="twitter"></a></li>
-            <li><a href="#" class="facebook"></a></li>
-            <li><a href="#" class="instagram"></a></li>
-            <li><a href="#" class="pinterest"></a></li>
-          </ul>
-          <div class="newsletter">
-            <div class="link-header">Email Updates</div>
-            <div class="link-subheader">
-              Exclusive sales, special offers, and more.
-            </div>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Enter email address"
+      <div class="container">
+        <div class="card-deck">
+          <div class="card">
+            <img
+              src="products/placeholder001.jpg"
+              class="card-img-top"
+              alt="..."
             />
-            <button class="btn btn-primary">Sign up</button>
+            <h5 class="card-title">Doing business in Taiwan</h5>
+            <p class="card-text">
+              Want to know the best practice in Taiwan? You come to the right
+              place!
+            </p>
+            <a href="#" class="btn btn-primary">View Here</a>
           </div>
-        </div>
-      </section>
+          <!-- end card -->
 
-      <!-- PS DEMO -->
-      <section class="ps">
-        <div class="flex flex-column align-center">
-          <img src="img/pluralsight-white.png" />
-          <div class="demo">
-            This site is created for demonstrative purposes only and does not
-            offer any real products or services.
+          <div class="card">
+            <img
+              src="products/placeholder002.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <h5 class="card-title">Taxation in Taiwan</h5>
+            <p class="card-text">
+              Want to minimize the friction for you operation in town? Ask us!
+            </p>
+            <a href="#" class="btn btn-primary">View Here</a>
           </div>
+          <!-- end card -->
         </div>
-      </section>
+        <!-- end card deck -->
+      </div>
+      <!-- end container -->
+    </main>
 
-      <div class="text-primary copyright">&copy;Pluralsight 2018</div>
+    <footer>
+      <div class="container mt-4 pt-3">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-3">
+            <h2>Location</h2>
+            <ul>
+              <li>PKF Taiwan</li>
+              <li>123 Bakery Street</li>
+              <li>Brussels, Belgium</li>
+            </ul>
+          </div>
+          <!-- end column -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <h2>Company</h2>
+            <ul>
+              <li>Catering</li>
+              <li>Delivery</li>
+              <li>Swag Shop</li>
+              <li>Support</li>
+            </ul>
+          </div>
+          <!-- end column -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <h2>Social</h2>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+            </ul>
+          </div>
+          <!-- end column -->
+          <div class="col-12 col-md-6 col-xl-3">
+            <h2>About Us</h2>
+            <img src="images/logo.jpg" alt="logo" />
+            <p>&copy; 2020 &bull; all rights reserved.</p>
+          </div>
+          <!-- end column -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
     </footer>
+
+    <!-- jQuery first then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
